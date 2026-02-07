@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradescope Calendar Sync</title>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --border: #30363d;
+            --success: #3fb950;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card h2 .step {
+            background: var(--accent);
+            color: var(--bg-primary);
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .url-box {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .url-box code {
+            flex: 1;
+            word-break: break-all;
+            color: var(--accent);
+            font-size: 0.9rem;
+        }
+
+        .url-box button {
+            background: var(--accent);
+            color: var(--bg-primary);
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+
+        .url-box button:hover {
+            background: var(--accent-hover);
+        }
+
+        .url-box button.copied {
+            background: var(--success);
+        }
+
+        ol {
+            padding-left: 1.5rem;
+        }
+
+        ol li {
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        ol li strong {
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .feature .icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature h3 {
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .feature p {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .footer {
+            margin-top: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gradescope Calendar Sync</h1>
+        <p class="subtitle">Never miss another assignment deadline</p>
+
+        <div class="card">
+            <h2><span class="step">1</span> Copy the subscription URL</h2>
+            <p>This URL updates automatically twice daily with your latest assignments.</p>
+            <div class="url-box">
+                <code id="ical-url">Loading...</code>
+                <button onclick="copyUrl()" id="copy-btn">Copy</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="step">2</span> Subscribe in your calendar</h2>
+
+            <h3 style="margin: 1rem 0 0.5rem; font-size: 1rem;">Google Calendar</h3>
+            <ol>
+                <li>Open <a href="https://calendar.google.com" target="_blank">Google Calendar</a></li>
+                <li>Click the <strong>+</strong> next to "Other calendars"</li>
+                <li>Select <strong>"From URL"</strong></li>
+                <li>Paste the URL and click <strong>"Add calendar"</strong></li>
+            </ol>
+
+            <h3 style="margin: 1.5rem 0 0.5rem; font-size: 1rem;">Apple Calendar</h3>
+            <ol>
+                <li>Open Calendar app</li>
+                <li>Go to <strong>File > New Calendar Subscription</strong></li>
+                <li>Paste the URL and click <strong>Subscribe</strong></li>
+            </ol>
+
+            <h3 style="margin: 1.5rem 0 0.5rem; font-size: 1rem;">Outlook</h3>
+            <ol>
+                <li>Open <a href="https://outlook.live.com/calendar" target="_blank">Outlook Calendar</a></li>
+                <li>Click <strong>"Add calendar" > "Subscribe from web"</strong></li>
+                <li>Paste the URL and click <strong>Import</strong></li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <div class="features">
+                <div class="feature">
+                    <div class="icon">🔄</div>
+                    <h3>Auto-updates</h3>
+                    <p>Syncs twice daily</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">📱</div>
+                    <h3>Any device</h3>
+                    <p>Works everywhere</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">⚡</div>
+                    <h3>No setup</h3>
+                    <p>Just subscribe</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>
+                <a id="github-link" href="#">View on GitHub</a>
+                ·
+                <a href="gradescope.ics">Download .ics file</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Construct URLs based on the current page location
+        const baseUrl = window.location.href.replace(/index\.html$/, '').replace(/\/$/, '');
+        const icalUrl = baseUrl + '/gradescope.ics';
+        document.getElementById('ical-url').textContent = icalUrl;
+
+        // Extract username from GitHub Pages URL (username.github.io)
+        const match = window.location.hostname.match(/^([^.]+)\.github\.io$/);
+        if (match) {
+            const username = match[1];
+            const repoName = window.location.pathname.split('/')[1] || 'gradescope-calendar-sync';
+            document.getElementById('github-link').href = `https://github.com/${username}/${repoName}`;
+        }
+
+        function copyUrl() {
+            navigator.clipboard.writeText(icalUrl).then(() => {
+                const btn = document.getElementById('copy-btn');
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>

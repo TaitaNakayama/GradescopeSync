@@ -1,0 +1,42 @@
+name: Generate iCal Feed
+
+on:
+  schedule:
+    # Run at 8 AM and 8 PM Pacific (UTC-8 = +8 hours)
+    # 4 PM and 4 AM UTC
+    - cron: '0 4,16 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to push the .ics file
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate iCal file
+        env:
+          GRADESCOPE_EMAIL: ${{ secrets.GRADESCOPE_EMAIL }}
+          GRADESCOPE_PASSWORD: ${{ secrets.GRADESCOPE_PASSWORD }}
+        run: python generate_ical.py
+
+      - name: Commit and push iCal file
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -f docs/gradescope.ics
+          git diff --staged --quiet || git commit -m "Update iCal feed [automated]"
+          git push
