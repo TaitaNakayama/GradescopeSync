@@ -1,0 +1,650 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gradescope Calendar Sync//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Gradescope Assignments
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VEVENT
+SUMMARY:HW01 (Tools) - Setup - COMPSCI 61B
+DTSTART;TZID="UTC-08:00":20260123T235900
+DTEND;TZID="UTC-08:00":20260123T235900
+DTSTAMP:20260207T060639Z
+UID:1211464-7387828@gradescope-sync
+DESCRIPTION:Course: Computer Science 61B (Spring 2026)\nLink: https://www.
+ gradescope.com/courses/1211464/assignments/7387828/submissions/382429153
+URL:https://www.gradescope.com/courses/1211464/assignments/7387828/submiss
+ ions/382429153
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW02 (Coding) - Java Intro - COMPSCI 61B
+DTSTART;TZID="UTC-08:00":20260127T235900
+DTEND;TZID="UTC-08:00":20260127T235900
+DTSTAMP:20260207T060639Z
+UID:1211464-7509465@gradescope-sync
+DESCRIPTION:Course: Computer Science 61B (Spring 2026)\nLink: https://www.
+ gradescope.com/courses/1211464/assignments/7509465/submissions/382548111
+URL:https://www.gradescope.com/courses/1211464/assignments/7509465/submiss
+ ions/382548111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Project 0 - Particle Simulator - COMPSCI 61B
+DTSTART;TZID="UTC-08:00":20260203T235900
+DTEND;TZID="UTC-08:00":20260203T235900
+DTSTAMP:20260207T060639Z
+UID:1211464-7544060@gradescope-sync
+DESCRIPTION:Course: Computer Science 61B (Spring 2026)\nLink: https://www.
+ gradescope.com/courses/1211464/assignments/7544060/submissions/385716193
+URL:https://www.gradescope.com/courses/1211464/assignments/7544060/submiss
+ ions/385716193
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Project 0 - Particle Simulator (Hardmode) - COMPSCI 61B
+DTSTART;TZID="UTC-08:00":20260203T235900
+DTEND;TZID="UTC-08:00":20260203T235900
+DTSTAMP:20260207T060639Z
+UID:1211464-7566342@gradescope-sync
+DESCRIPTION:Course: Computer Science 61B (Spring 2026)\nLink: https://www.
+ gradescope.com/courses/1211464/assignments/7566342
+URL:https://www.gradescope.com/courses/1211464/assignments/7566342
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW03 (Coding) - IntLists - COMPSCI 61B
+DTSTART;TZID="UTC-08:00":20260203T235900
+DTEND;TZID="UTC-08:00":20260203T235900
+DTSTAMP:20260207T060639Z
+UID:1211464-7575463@gradescope-sync
+DESCRIPTION:Course: Computer Science 61B (Spring 2026)\nLink: https://www.
+ gradescope.com/courses/1211464/assignments/7575463/submissions/385679843
+URL:https://www.gradescope.com/courses/1211464/assignments/7575463/submiss
+ ions/385679843
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Project 1 - LinkedListDeque - COMPSCI 61B
+DTSTART;TZID="UTC-08:00":20260210T235900
+DTEND;TZID="UTC-08:00":20260210T235900
+DTSTAMP:20260207T060639Z
+UID:1211464-7582132@gradescope-sync
+DESCRIPTION:Course: Computer Science 61B (Spring 2026)\nLink: https://www.
+ gradescope.com/courses/1211464/assignments/7582132
+URL:https://www.gradescope.com/courses/1211464/assignments/7582132
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Ungraded] Project 1 - LinkedListDeque Test Coverage - COMPSCI 61B
+DTSTART;TZID="UTC-08:00":20260210T235900
+DTEND;TZID="UTC-08:00":20260210T235900
+DTSTAMP:20260207T060639Z
+UID:1211464-7582993@gradescope-sync
+DESCRIPTION:Course: Computer Science 61B (Spring 2026)\nLink: https://www.
+ gradescope.com/courses/1211464/assignments/7582993
+URL:https://www.gradescope.com/courses/1211464/assignments/7582993
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mini-Vitamin 0A - CS 70
+DTSTART;TZID="UTC-08:00":20260122T123000
+DTEND;TZID="UTC-08:00":20260122T123000
+DTSTAMP:20260207T060639Z
+UID:1226014-7492333@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7492333/
+ submissions/382150198
+URL:https://www.gradescope.com/courses/1226014/assignments/7492333/submiss
+ ions/382150198
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mini-Vitamin 0B - CS 70
+DTSTART;TZID="UTC-08:00":20260122T123000
+DTEND;TZID="UTC-08:00":20260122T123000
+DTSTAMP:20260207T060639Z
+UID:1226014-7492356@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7492356/
+ submissions/382147621
+URL:https://www.gradescope.com/courses/1226014/assignments/7492356/submiss
+ ions/382147621
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework 0 - CS 70
+DTSTART;TZID="UTC-08:00":20260126T160000
+DTEND;TZID="UTC-08:00":20260126T160000
+DTSTAMP:20260207T060639Z
+UID:1226014-7507449@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7507449/
+ submissions/382672701
+URL:https://www.gradescope.com/courses/1226014/assignments/7507449/submiss
+ ions/382672701
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mini-Vitamin 1A - CS 70
+DTSTART;TZID="UTC-08:00":20260127T123000
+DTEND;TZID="UTC-08:00":20260127T123000
+DTSTAMP:20260207T060639Z
+UID:1226014-7528079@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7528079/
+ submissions/383376228
+URL:https://www.gradescope.com/courses/1226014/assignments/7528079/submiss
+ ions/383376228
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mini-Vitamin 1B - CS 70
+DTSTART;TZID="UTC-08:00":20260129T123000
+DTEND;TZID="UTC-08:00":20260129T123000
+DTSTAMP:20260207T060639Z
+UID:1226014-7528081@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7528081/
+ submissions/384048656
+URL:https://www.gradescope.com/courses/1226014/assignments/7528081/submiss
+ ions/384048656
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework 0 Self-Grading - CS 70
+DTSTART;TZID="UTC-08:00":20260131T160000
+DTEND;TZID="UTC-08:00":20260131T160000
+DTSTAMP:20260207T060639Z
+UID:1226014-7546938@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7546938/
+ submissions/384407863
+URL:https://www.gradescope.com/courses/1226014/assignments/7546938/submiss
+ ions/384407863
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework 1 - CS 70
+DTSTART;TZID="UTC-08:00":20260202T160000
+DTEND;TZID="UTC-08:00":20260202T160000
+DTSTAMP:20260207T060639Z
+UID:1226014-7552934@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7552934/
+ submissions/385210782
+URL:https://www.gradescope.com/courses/1226014/assignments/7552934/submiss
+ ions/385210782
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework 1 Self-Grading - CS 70
+DTSTART;TZID="UTC-08:00":20260207T160000
+DTEND;TZID="UTC-08:00":20260207T160000
+DTSTAMP:20260207T060639Z
+UID:1226014-7553047@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7553047/
+ submissions/new
+URL:https://www.gradescope.com/courses/1226014/assignments/7553047/submiss
+ ions/new
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mini-Vitamin 2A - CS 70
+DTSTART;TZID="UTC-08:00":20260203T123000
+DTEND;TZID="UTC-08:00":20260203T123000
+DTSTAMP:20260207T060639Z
+UID:1226014-7588842@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7588842/
+ submissions/385482982
+URL:https://www.gradescope.com/courses/1226014/assignments/7588842/submiss
+ ions/385482982
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mini-Vitamin 2B - CS 70
+DTSTART;TZID="UTC-08:00":20260205T123000
+DTEND;TZID="UTC-08:00":20260205T123000
+DTSTAMP:20260207T060639Z
+UID:1226014-7588852@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7588852/
+ submissions/386296028
+URL:https://www.gradescope.com/courses/1226014/assignments/7588852/submiss
+ ions/386296028
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework 2 - CS 70
+DTSTART;TZID="UTC-08:00":20260209T160000
+DTEND;TZID="UTC-08:00":20260209T160000
+DTSTAMP:20260207T060639Z
+UID:1226014-7590432@gradescope-sync
+DESCRIPTION:Course: Discrete Mathematics and Probability Theory (Spring 20
+ 26)\nLink: https://www.gradescope.com/courses/1226014/assignments/7590432
+URL:https://www.gradescope.com/courses/1226014/assignments/7590432
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework 1 - MUSA 74
+DTSTART;TZID="UTC-08:00":20260211T235959
+DTEND;TZID="UTC-08:00":20260211T235959
+DTSTAMP:20260207T060639Z
+UID:1251101-7605508@gradescope-sync
+DESCRIPTION:Course: Transition to Upper-Div Mathematics\nLink: https://www
+ .gradescope.com/courses/1251101/assignments/7605508
+URL:https://www.gradescope.com/courses/1251101/assignments/7605508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vitamin 1 - CS 198
+DTSTART;TZID="UTC-07:00":20250923T235900
+DTEND;TZID="UTC-07:00":20250923T235900
+DTSTAMP:20260207T060639Z
+UID:1134351-6788557@gradescope-sync
+DESCRIPTION:Course: Full Stack Decal (FA25)\nLink: https://www.gradescope.
+ com/courses/1134351/assignments/6788557/submissions/350358783
+URL:https://www.gradescope.com/courses/1134351/assignments/6788557/submiss
+ ions/350358783
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vitamin 2 - CS 198
+DTSTART;TZID="UTC-07:00":20250930T235900
+DTEND;TZID="UTC-07:00":20250930T235900
+DTSTAMP:20260207T060639Z
+UID:1134351-6788622@gradescope-sync
+DESCRIPTION:Course: Full Stack Decal (FA25)\nLink: https://www.gradescope.
+ com/courses/1134351/assignments/6788622/submissions/353341964
+URL:https://www.gradescope.com/courses/1134351/assignments/6788622/submiss
+ ions/353341964
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vitamin 3 - CS 198
+DTSTART;TZID="UTC-07:00":20251007T235900
+DTEND;TZID="UTC-07:00":20251007T235900
+DTSTAMP:20260207T060639Z
+UID:1134351-6893609@gradescope-sync
+DESCRIPTION:Course: Full Stack Decal (FA25)\nLink: https://www.gradescope.
+ com/courses/1134351/assignments/6893609/submissions/355862276
+URL:https://www.gradescope.com/courses/1134351/assignments/6893609/submiss
+ ions/355862276
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Project 1 - CS 198
+DTSTART;TZID="UTC-07:00":20251014T235900
+DTEND;TZID="UTC-07:00":20251014T235900
+DTSTAMP:20260207T060639Z
+UID:1134351-6893613@gradescope-sync
+DESCRIPTION:Course: Full Stack Decal (FA25)\nLink: https://www.gradescope.
+ com/courses/1134351/assignments/6893613/submissions/360889892
+URL:https://www.gradescope.com/courses/1134351/assignments/6893613/submiss
+ ions/360889892
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vitamin 4 - CS 198
+DTSTART;TZID="UTC-07:00":20251014T235900
+DTEND;TZID="UTC-07:00":20251014T235900
+DTSTAMP:20260207T060639Z
+UID:1134351-6960065@gradescope-sync
+DESCRIPTION:Course: Full Stack Decal (FA25)\nLink: https://www.gradescope.
+ com/courses/1134351/assignments/6960065/submissions/360883612
+URL:https://www.gradescope.com/courses/1134351/assignments/6960065/submiss
+ ions/360883612
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vitamin 9 - CS 198
+DTSTART;TZID="UTC-08:00":20251125T235900
+DTEND;TZID="UTC-08:00":20251125T235900
+DTSTAMP:20260207T060639Z
+UID:1134351-7191753@gradescope-sync
+DESCRIPTION:Course: Full Stack Decal (FA25)\nLink: https://www.gradescope.
+ com/courses/1134351/assignments/7191753/submissions/374660057
+URL:https://www.gradescope.com/courses/1134351/assignments/7191753/submiss
+ ions/374660057
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW1 - Math 53
+DTSTART;TZID="UTC-07:00":20250903T235900
+DTEND;TZID="UTC-07:00":20250903T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6617262@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6617262/submissions/344138721
+URL:https://www.gradescope.com/courses/1092294/assignments/6617262/submiss
+ ions/344138721
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW2 - Math 53
+DTSTART;TZID="UTC-07:00":20250905T235900
+DTEND;TZID="UTC-07:00":20250905T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6617910@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6617910/submissions/344618878
+URL:https://www.gradescope.com/courses/1092294/assignments/6617910/submiss
+ ions/344618878
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW3 - Math 53
+DTSTART;TZID="UTC-07:00":20250910T235900
+DTEND;TZID="UTC-07:00":20250910T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6617911@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6617911/submissions/346007423
+URL:https://www.gradescope.com/courses/1092294/assignments/6617911/submiss
+ ions/346007423
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW4 - Math 53
+DTSTART;TZID="UTC-07:00":20250912T235900
+DTEND;TZID="UTC-07:00":20250912T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6617912@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6617912/submissions/346801105
+URL:https://www.gradescope.com/courses/1092294/assignments/6617912/submiss
+ ions/346801105
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW5 - Math 53
+DTSTART;TZID="UTC-07:00":20250917T235900
+DTEND;TZID="UTC-07:00":20250917T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6664627@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6664627/submissions/348445487
+URL:https://www.gradescope.com/courses/1092294/assignments/6664627/submiss
+ ions/348445487
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW6 - Math 53
+DTSTART;TZID="UTC-07:00":20250919T235900
+DTEND;TZID="UTC-07:00":20250919T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6665824@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6665824/submissions/349115853
+URL:https://www.gradescope.com/courses/1092294/assignments/6665824/submiss
+ ions/349115853
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW7 - Math 53
+DTSTART;TZID="UTC-07:00":20250924T235900
+DTEND;TZID="UTC-07:00":20250924T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6665832@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6665832/submissions/351112953
+URL:https://www.gradescope.com/courses/1092294/assignments/6665832/submiss
+ ions/351112953
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW8 - Math 53
+DTSTART;TZID="UTC-07:00":20250926T235900
+DTEND;TZID="UTC-07:00":20250926T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6665851@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6665851/submissions/351998452
+URL:https://www.gradescope.com/courses/1092294/assignments/6665851/submiss
+ ions/351998452
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW9 - Math 53
+DTSTART;TZID="UTC-07:00":20251001T235900
+DTEND;TZID="UTC-07:00":20251001T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6665868@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6665868/submissions/353784338
+URL:https://www.gradescope.com/courses/1092294/assignments/6665868/submiss
+ ions/353784338
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW10 - Math 53
+DTSTART;TZID="UTC-07:00":20251010T235900
+DTEND;TZID="UTC-07:00":20251010T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6665880@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6665880/submissions/357173148
+URL:https://www.gradescope.com/courses/1092294/assignments/6665880/submiss
+ ions/357173148
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW12 - Math 53
+DTSTART;TZID="UTC-07:00":20251015T235900
+DTEND;TZID="UTC-07:00":20251015T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6855072@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6855072/submissions/358712283
+URL:https://www.gradescope.com/courses/1092294/assignments/6855072/submiss
+ ions/358712283
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW13 - Math 53
+DTSTART;TZID="UTC-07:00":20251017T235900
+DTEND;TZID="UTC-07:00":20251017T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6915623@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6915623/submissions/359216444
+URL:https://www.gradescope.com/courses/1092294/assignments/6915623/submiss
+ ions/359216444
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW15 - Math 53
+DTSTART;TZID="UTC-07:00":20251024T235900
+DTEND;TZID="UTC-07:00":20251024T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6966295@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6966295/submissions/362393969
+URL:https://www.gradescope.com/courses/1092294/assignments/6966295/submiss
+ ions/362393969
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW16 - Math 53
+DTSTART;TZID="UTC-07:00":20251029T235900
+DTEND;TZID="UTC-07:00":20251029T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6966308@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6966308/submissions/364160258
+URL:https://www.gradescope.com/courses/1092294/assignments/6966308/submiss
+ ions/364160258
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW17 - Math 53
+DTSTART;TZID="UTC-07:00":20251031T235900
+DTEND;TZID="UTC-07:00":20251031T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6966310@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6966310/submissions/364961665
+URL:https://www.gradescope.com/courses/1092294/assignments/6966310/submiss
+ ions/364961665
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW18 - Math 53
+DTSTART;TZID="UTC-08:00":20251105T235900
+DTEND;TZID="UTC-08:00":20251105T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-6966316@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/6966316/submissions/366619159
+URL:https://www.gradescope.com/courses/1092294/assignments/6966316/submiss
+ ions/366619159
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW19 - Math 53
+DTSTART;TZID="UTC-08:00":20251107T235900
+DTEND;TZID="UTC-08:00":20251107T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-7049222@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/7049222/submissions/367508335
+URL:https://www.gradescope.com/courses/1092294/assignments/7049222/submiss
+ ions/367508335
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW20 - Math 53
+DTSTART;TZID="UTC-08:00":20251112T235900
+DTEND;TZID="UTC-08:00":20251112T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-7049247@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/7049247/submissions/369065094
+URL:https://www.gradescope.com/courses/1092294/assignments/7049247/submiss
+ ions/369065094
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW21 - Math 53
+DTSTART;TZID="UTC-08:00":20251121T235900
+DTEND;TZID="UTC-08:00":20251121T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-7049251@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/7049251/submissions/372480425
+URL:https://www.gradescope.com/courses/1092294/assignments/7049251/submiss
+ ions/372480425
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW22 - Math 53
+DTSTART;TZID="UTC-08:00":20251126T235900
+DTEND;TZID="UTC-08:00":20251126T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-7049274@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/7049274/submissions/373558422
+URL:https://www.gradescope.com/courses/1092294/assignments/7049274/submiss
+ ions/373558422
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW23 - Math 53
+DTSTART;TZID="UTC-08:00":20251205T235900
+DTEND;TZID="UTC-08:00":20251205T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-7057964@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/7057964/submissions/375768876
+URL:https://www.gradescope.com/courses/1092294/assignments/7057964/submiss
+ ions/375768876
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HW24/25 - Math 53
+DTSTART;TZID="UTC-08:00":20251210T235900
+DTEND;TZID="UTC-08:00":20251210T235900
+DTSTAMP:20260207T060639Z
+UID:1092294-7123832@gradescope-sync
+DESCRIPTION:Course: Multivariable Calculus\nLink: https://www.gradescope.c
+ om/courses/1092294/assignments/7123832/submissions/377326008
+URL:https://www.gradescope.com/courses/1092294/assignments/7123832/submiss
+ ions/377326008
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #1 - Math 54 Fall 2025
+DTSTART;TZID="UTC-07:00":20250904T235900
+DTEND;TZID="UTC-07:00":20250904T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575673@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575673/subm
+ issions/344290534
+URL:https://www.gradescope.com/courses/1097805/assignments/6575673/submiss
+ ions/344290534
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #10 - Math 54 Fall 2025
+DTSTART;TZID="UTC-08:00":20251120T235900
+DTEND;TZID="UTC-08:00":20251120T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575674@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575674/subm
+ issions/372063966
+URL:https://www.gradescope.com/courses/1097805/assignments/6575674/submiss
+ ions/372063966
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #11 - Math 54 Fall 2025
+DTSTART;TZID="UTC-08:00":20251207T235900
+DTEND;TZID="UTC-08:00":20251207T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575675@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575675/subm
+ issions/376216654
+URL:https://www.gradescope.com/courses/1097805/assignments/6575675/submiss
+ ions/376216654
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #2 - Math 54 Fall 2025
+DTSTART;TZID="UTC-07:00":20250911T235900
+DTEND;TZID="UTC-07:00":20250911T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575676@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575676/subm
+ issions/346432910
+URL:https://www.gradescope.com/courses/1097805/assignments/6575676/submiss
+ ions/346432910
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #3 - Math 54 Fall 2025
+DTSTART;TZID="UTC-07:00":20250918T235900
+DTEND;TZID="UTC-07:00":20250918T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575677@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575677/subm
+ issions/348833061
+URL:https://www.gradescope.com/courses/1097805/assignments/6575677/submiss
+ ions/348833061
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #4 - Math 54 Fall 2025
+DTSTART;TZID="UTC-07:00":20250925T235900
+DTEND;TZID="UTC-07:00":20250925T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575678@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575678/subm
+ issions/351621766
+URL:https://www.gradescope.com/courses/1097805/assignments/6575678/submiss
+ ions/351621766
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #5 - Math 54 Fall 2025
+DTSTART;TZID="UTC-07:00":20251009T235900
+DTEND;TZID="UTC-07:00":20251009T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575690@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575690/subm
+ issions/356777489
+URL:https://www.gradescope.com/courses/1097805/assignments/6575690/submiss
+ ions/356777489
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #6 - Math 54 Fall 2025
+DTSTART;TZID="UTC-07:00":20251016T235900
+DTEND;TZID="UTC-07:00":20251016T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575691@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575691/subm
+ issions/359178507
+URL:https://www.gradescope.com/courses/1097805/assignments/6575691/submiss
+ ions/359178507
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #7 - Math 54 Fall 2025
+DTSTART;TZID="UTC-07:00":20251023T235900
+DTEND;TZID="UTC-07:00":20251023T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575693@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575693/subm
+ issions/361910017
+URL:https://www.gradescope.com/courses/1097805/assignments/6575693/submiss
+ ions/361910017
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Homework #8 - Math 54 Fall 2025
+DTSTART;TZID="UTC-07:00":20251030T235900
+DTEND;TZID="UTC-07:00":20251030T235900
+DTSTAMP:20260207T060639Z
+UID:1097805-6575694@gradescope-sync
+DESCRIPTION:Course: Linear Algebra and Differential Equations (Fall 2025)\
+ nLink: https://www.gradescope.com/courses/1097805/assignments/6575694/subm
+ issions/364600891
+URL:https://www.gradescope.com/courses/1097805/assignments/6575694/submiss
+ ions/364600891
+END:VEVENT
+END:VCALENDAR
